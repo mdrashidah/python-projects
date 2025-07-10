@@ -1,0 +1,6 @@
+print("Bill Split Calculator")
+print("hello friends, lets split our bill paid amount")
+bill_amount = int(input("bill amount: "))
+no_of_friends = int(input("no. of friends: "))
+diveded_amount = (bill_amount/no_of_friends)
+print("splitted amount will be: ",diveded_amount)
